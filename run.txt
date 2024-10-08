@@ -1,0 +1,3 @@
+g++ -I../inc/A*.h src/A*.cpp -o assembler
+g++ -I../inc/L*.h src/L*.cpp -o linker
+g++ -I../inc/E*.h src/E*.cpp -o emulator
